@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* .chart1
+{
+  float:left;
+  clear: both;
+  padding: 0px;
+  border-radius: 50px;
+  background-color: rgb(230, 202, 206);
+  box-shadow: 5px 5px 13px , -5px -5px 13px ;
+
+} */
+/* .chart2{
+  float: right;
+  clear: both;
+  padding: 0px;
+  border-radius: 5px;
+  background-color: rgb(202, 222, 228);
+  box-shadow: 5px 5px 13px , -5px -5px 13px ;
+} */
+
+
+.left{
+  padding: 10px;
+}
+
+.center{
+  padding: 10px;
+}
+
+.right{
+  padding: 10px;
+}
+
+
+
+/* #graph1{float:left;}
+#graph2{float:right;}
+#graph3{margin:0 auto;} */
+
+.App{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: 'wrap';
+  align-items: flex-start;
+  padding: 0px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: 5px 5px 13px , -5px -5px 13px ; */
+}
+
+.App-link {
+  color: #e1eaec;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
